@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#loginForm{
+    text-align: center;
+}
+
+ form {
+    border: 3px solid black;
+    width: 50%;
+    padding: 15px;
+    margin-left: 25%;
+
+ }
+ input[type=password], input[type=email] {
+    width:100%;
+    padding:8px 0;
+    box-sizing:border-box;
+    margin: 10px 0;;
+ }
+ button {
+    padding:8px 16px;
+    width:100%;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top:4px;
+    cursor: pointer;
+   box-sizing:border-box;
+ }
+ span.fps {
+    width:auto;
+    float: right;
+    margin-top:1px;
+ }
+ .cancel {
+    width:auto;
+    border:none;
+ }
+ body {
+    background-image: url('https://images.techopedia.com/images/uploads/women-in-tech.jpg?w=800&h=0&mode=crop&quality=70&scale=both'); background-repeat: no-repeat; background-size: cover;
+ }
+.regg{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  box-sizing: border-box;
+ }

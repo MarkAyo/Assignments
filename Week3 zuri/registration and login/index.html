@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div class="mark">
+      <h1 id="loginForm">Login Form</h1>
+      <form action="index1.html">
+        <div class="loginForm">
+          <label for="Email" id="Email">Email Address:</label>
+          <input
+            type="email"
+            id="Email"
+            name="email"
+            placeholder="example@gmail.com"
+            required
+          />
+
+          <label for="Password" id="Password">Password:</label>
+          <input
+            type="password"
+            id="Password"
+            name="password"
+            placeholder="abc-123"
+            required
+            pattern="[a-z]{3}-[0-9]{3}"
+            title="password must be in this format abc-123"
+          />
+           <label>
+            <input type="checkbox" name="rememberMe" /> Remember me
+         </label>
+         <button type="submit">Login</button>
+        </div>
+        <div>
+          <button><a href="index2.html" class="regg">Register</a></button>
+        </div>
+        <div class="loginForm" style="background-color: #f1f1f1">
+          <button type="button" class="cancel">Cancel</button>
+          <span class="fps"> <a href="#">Forgot password?</a> </span>
+        </div>
+      </form>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
