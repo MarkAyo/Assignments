@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: rgb(1, 4, 24);
+    display:flex;
+    justify-items: center;
+    min-height: 100vh;
+    align-items: center;
+    margin-left:15%;
+}
+main {
+    display:grid;
+    padding: 2em;
+    grid-template-areas: 
+    
+    "a a b"
+    "c d d"
+    "c f f";
+    width:50%;
+    margin:auto;
+    gap:7px;
+    grid-template-columns: 180px 55px 125px;
+    grid-template-rows: 120px 60px 70px;
+}
+.one {
+    background-color: rgb(255, 115, 0);
+    grid-area: a;
+}
+
+.two {
+    background-color: rgb(255, 208, 0);
+    grid-area: b;
+}
+
+.three {
+    background-color: rgb(44, 253, 2);
+    grid-area: c;
+}
+
+.four {
+    background-color: rgb(52, 162, 226);
+    grid-area: d;
+}
+
+.five {
+    background-color: rgb(0, 255, 242);
+    grid-area: f;
+}
+
+div a {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
